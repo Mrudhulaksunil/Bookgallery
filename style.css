@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    background-color: rgb(247, 216, 178);
+    height: 50px;
+    width: 100%;
+}
+header h3{
+    color: rgb(87, 87, 80);
+    text-align: center;
+    padding: 20px;
+}
+header h3:hover{
+    color: rgb(39, 2, 2);
+}
+footer{
+    height: 30px;
+}
+footer p{
+    background-color: rgb(247, 216, 178);
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+footer p:hover{
+    color: rgb(39, 2, 2);
+   
+}
+.banner{
+    width: 100%;
+    height:500px;
+    background-image: url('https://images.pexels.com/photos/1005324/literature-book-open-pages-1005324.jpeg?cs=srgb&dl=antique-book-book-bindings-1005324.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+}
+h4{
+    background-color: rgb(247, 216, 178);
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    color: beige;
+}
+h4:hover{
+    color: rgb(39, 2, 2);
+
+}
+.col h4{
+    background-color: rgb(190, 128, 128);
+}
+
+.row{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(247, 230, 209);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+}
+.col{
+    width: 1200px;
+    height:400px;
+    background-color: rgb(190, 128, 128);
+    margin-left: 50px;
+    margin-right: 40px;
+    border: 3px ridge papayawhip;
+
+}
+h3,h4{
+    text-align: center;
+}
+button{
+    color: rgb(255, 251, 252);
+    background-color: rgb(182, 28, 54);
+    padding: 10px;
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+.col button:hover{
+    background-color: rgb(119, 4, 4);
+
+}
+
+@media screen and (max-width:400px){
+    header{
+        width: 400px;
+    }
+    .banner{
+        width: 400px;
+    }
+    .row{
+        width: 100%;
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .col{
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+        border: 2px solid black;
+        padding: 10px;
+    }
+    .col img{
+        width: 100%;
+        height: 150px;
+    }
+    button{
+        padding: 5px;
+        margin-left: 90px;
+    }
+    header h3{
+        color: rgb(7, 21, 68);
+    }
+    footer p{
+        width: 400px;
+    }
+}
